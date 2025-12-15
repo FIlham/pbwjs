@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # pbwjs
 Powerful Baileys Wrapper for interacting WhatsApp Web API.
 =======
@@ -28,14 +27,5 @@ Install with your favorite package manager:
 ```bash
 npm install pbwjs
 ```
-    
-## Contributing
-
-Contributions are always welcome!
-
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
 
 This project is on going and README.md will always keep update. For now, It just be like this.
->>>>>>> 41b6be0 (initial commit)
