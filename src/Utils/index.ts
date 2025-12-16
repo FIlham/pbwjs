@@ -5,3 +5,5 @@ export class Utils {
 		);
 	}
 }
+
+export * from "./Event.js";

@@ -1,39 +1,44 @@
 {
-  "name": "pbwjs",
-  "version": "0.1.0",
-  "description": "Powerful Baileys Wrapper for interacting WhatsApp Web API.",
-  "keywords": [
-    "whatsapp",
-    "whatsapp-web",
-    "baileys",
-    "javascript",
-    "typescript",
-    "whatsapp-api"
-  ],
-  "homepage": "https://github.com/FIlham/pbwjs#readme",
-  "bugs": {
-    "url": "https://github.com/FIlham/pbwjs/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FIlham/pbwjs.git"
-  },
-  "license": "ISC",
-  "author": "Fahmi Ilham",
-  "type": "module",
-  "main": "./dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "@types/node": "^25.0.1",
-    "esbuild": "^0.27.1",
-    "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "@types/qrcode-terminal": "^0.12.2",
-    "baileys": "github:whiskeysockets/baileys",
-    "qrcode-terminal": "^0.12.0"
-  }
+	"name": "pbwjs",
+	"version": "0.1.0",
+	"description": "Powerful Baileys Wrapper for interacting WhatsApp Web API.",
+	"keywords": [
+		"whatsapp",
+		"whatsapp-web",
+		"baileys",
+		"javascript",
+		"typescript",
+		"whatsapp-api"
+	],
+	"homepage": "https://github.com/FIlham/pbwjs#readme",
+	"bugs": {
+		"url": "https://github.com/FIlham/pbwjs/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FIlham/pbwjs.git"
+	},
+	"license": "ISC",
+	"author": "Fahmi Ilham",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"scripts": {
+		"build": "tsc"
+	},
+	"files": [
+		"./dist",
+		"README.md"
+	],
+	"devDependencies": {
+		"@types/node": "^25.0.1",
+		"esbuild": "^0.27.1",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@types/qrcode-terminal": "^0.12.2",
+		"baileys": "^7.0.0-rc.9",
+		"qrcode-terminal": "^0.12.0"
+	}
 }
