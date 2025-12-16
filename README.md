@@ -1,7 +1,5 @@
-# pbwjs
-Powerful Baileys Wrapper for interacting WhatsApp Web API.
 =======
-# Powerful Baileys Wrapper in JavaScript/TypeScript
+# Powerful Baileys Wrapper for interacting WhatsApp Web API.
 
 pbwjs is a wrapper for [Baileys](https://github.com/WhiskeySockets/Baileys). It comes with powerful API method that can easily to interact with WhatsApp Web API.
 
